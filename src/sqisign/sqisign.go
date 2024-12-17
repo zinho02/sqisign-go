@@ -9,32 +9,32 @@ import (
 )
 
 /*
-#cgo CFLAGS: -I <absolute_path_sqisign>/the-sqisign-nist-v1/
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/protocols/ref/lvl1
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/gf/ref/lvl1
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/id2iso/ref/lvl1
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/ec/ref/lvl1
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/klpt/ref/lvl1
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/precomp/ref/lvl1
+#cgo CFLAGS: -I <absolute_path_sqisign>/
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/protocols/ref/lvl1
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/gf/ref/lvl1
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/id2iso/ref/lvl1
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/ec/ref/lvl1
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/klpt/ref/lvl1
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/precomp/ref/lvl1
 
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/protocols/ref/lvl3
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/gf/ref/lvl3
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/id2iso/ref/lvl3
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/ec/ref/lvl3
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/klpt/ref/lvl3
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/precomp/ref/lvl3
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/protocols/ref/lvl3
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/gf/ref/lvl3
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/id2iso/ref/lvl3
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/ec/ref/lvl3
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/klpt/ref/lvl3
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/precomp/ref/lvl3
 
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/protocols/ref/lvl5
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/gf/ref/lvl5
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/id2iso/ref/lvl5
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/ec/ref/lvl5
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/klpt/ref/lvl5
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/precomp/ref/lvl5
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/protocols/ref/lvl5
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/gf/ref/lvl5
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/id2iso/ref/lvl5
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/ec/ref/lvl5
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/klpt/ref/lvl5
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/precomp/ref/lvl5
 
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/quaternion/ref/generic
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/common/generic
-#cgo LDFLAGS: -L<absolute_path_sqisign>/the-sqisign-nist-v1/build/src/intbig/ref/generic
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/quaternion/ref/generic
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/common/generic
+#cgo LDFLAGS: -L<absolute_path_sqisign>/build/src/intbig/ref/generic
 
 
 #cgo lvl1 LDFLAGS: -lsqisign_lvl1_nistapi -lsqisign_lvl1 -lsqisign_protocols_lvl1
